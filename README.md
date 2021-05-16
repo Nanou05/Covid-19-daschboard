@@ -212,4 +212,21 @@ Source de ce jeu de données : https://coronavirus.politologue.com - Les donnée
 Les données de ce fichier sont celles qui sont produites pour générer les graphiques sur https: //coronavirus.politologue.com
 Vous pouvez utiliser ces données sans problème et une référence à https://coronavirus.politologue.com sera appréciable
 
+# Visualisation SIR pour la France 
+
+![IMG_1671](https://user-images.githubusercontent.com/71569446/118393415-4f073780-b63f-11eb-814e-ab1e73d29e3f.PNG)
+![IMG_1673](https://user-images.githubusercontent.com/71569446/118393417-52022800-b63f-11eb-8ff1-d57af3041ad4.PNG)
+![IMG_1672](https://user-images.githubusercontent.com/71569446/118393418-53cbeb80-b63f-11eb-99a5-3b0529e8f2dd.PNG)
+
+Dans les 3 visualisations précédentes, nous constatons que le nombre d'infections diminue au cours du temps. Les nombres de guerisons et de déces diminuent également. 
+
+
+# Visualisation on SIR par pays 
+
+![IMG_1674](https://user-images.githubusercontent.com/71569446/118393460-9db4d180-b63f-11eb-8cc6-97ae6b244101.PNG)
+
+![IMG_1675](https://user-images.githubusercontent.com/71569446/118393480-b0c7a180-b63f-11eb-8b73-986a966fa4da.PNG)
+
+![IMG_1676](https://user-images.githubusercontent.com/71569446/118393482-b58c5580-b63f-11eb-8b6d-e74e6200affc.PNG)
+
 
