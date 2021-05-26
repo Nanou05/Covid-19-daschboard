@@ -31,21 +31,21 @@ For information about vaccination, another WHO database was used (which can be d
 For each database presented, the download link is given, all of which are available in open source.
 - https://www.data.gouv.fr/fr/datasets/r/6fadff46-9efd-4c53-942a-54aca783c30c: Used for hospital data, it is available in open source.
 It contains information on the date, departments, hospitalizations,  ICU admissions, deaths or returns home of patients.
-It was used in the dashboard to calculate, in particular, the indicators for the "global view of the situation in France", "resuscitation" and "deaths" pages.
+It was used in the dashboard to calculate, in particular, the indicators for the "global view of the situation in France", "ICU admissions" and "deaths" pages.
 - https://www.data.gouv.fr/fr/datasets/r/63352e38-d353-4b54-bfd1-f1b3ee1cabd7: Used to obtain the total number of deaths (not only in the hospital environment).
 It contains information on departments, sexes, hospitalizations,  ICU admissions, deaths or returns home.
 It was used to calculate, in particular, indicators related to the sex ratio in terms of the number of deaths or  ICU admissions.
 - https://www.data.gouv.fr/fr/datasets/r/b8d4eb4c-d0ae-4af6-bb23-0e39f70262bd: Used to study the vaccination situation in France.
 It contains the information of the different vaccines concerning the number of vaccinations by the first dose and the second dose.
 Small database but containing a certain amount of information on the different vaccines prescribed in the first and second dose.
-- https://www.data.gouv.fr/fr/datasets/r/63352e38-d353-4b54-bfd1-f1b3ee1cabd7: Used for the "resuscitation" part and the "death" part of the dashboard targeted on France.
+- https://www.data.gouv.fr/fr/datasets/r/63352e38-d353-4b54-bfd1-f1b3ee1cabd7: Used for the "ICU admissions" part and the "death" part of the dashboard targeted on France.
 It contains information on the department, gender, date,  ICU admissions, hospitalizations, deaths and returns home.
 It was used for the realization of visualizations of  ICU admissions according to time, sex and department.
 It was also used for the same visualizations regarding deaths.
 It was also used for the realization of the dynamic graphics of the global page of France.
-- https://www.data.gouv.fr/fr/datasets/r/08c18e08-6780-452d-9b8c-ae244ad529b3: Also used in the "resuscitation" part and the "death" part of the dashboard.
-It contains information on the region, age group, date, resuscitations, hospitalizations, deaths and returns home.
-It was used to carry out visualizations of resuscitation according to age groups and regions.
+- https://www.data.gouv.fr/fr/datasets/r/08c18e08-6780-452d-9b8c-ae244ad529b3: Also used in the "ICU admissions" part and the "death" part of the dashboard.
+It contains information on the region, age group, date, ICU admissions, hospitalizations, deaths and returns home.
+It was used to carry out visualizations of ICU admissions according to age groups and regions.
 It was also used for the same visualization regarding deaths.
 It was also used for the realization of the dynamic graphics of the global page of France.
 - https://www.data.gouv.fr/fr/datasets/r/900da9b0-8987-4ba7-b117-7aea0e53f530: Used in the "vaccination" part of the dashboard targeting France.
