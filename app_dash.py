@@ -106,7 +106,9 @@ covid_france_vacc_reg = pd.read_csv(covid_france_vacc_reg_url, sep=";")
 covid_france_vacc_reg['reg'] = covid_france_vacc_reg['reg'].astype(str)
 
 
+
 #####################################LAYOUT###############################################
+
 # styling the tabs
 tabs_styles = {
     'height': '44px'
@@ -322,6 +324,7 @@ cards_vacc = html.Div(
         ),
     ]
 )
+
 
 ############################################## Visualisations####################################################################
 
@@ -803,7 +806,10 @@ all_sexe = covid_france_general.sexe.unique()
 all_reg = covid_france_dc_age.reg.unique()
 all_pays = df_monde.Country.unique()
 
+
+
 ########################################### Data Table################################################
+
 # conditions on the world data table:      
 style_dataconditional=[
                    {
@@ -872,7 +878,10 @@ style_dataconditional=[
                         }
             ]
 
+
+
 ##############################################APP Layout##################################################################
+
 app.layout = html.Div([
     html.H1(children='Covid-19 Dashboard',
         style={
@@ -1254,7 +1263,10 @@ def render_content(tab):
             html.H3('Données vaccination')
         ])
 
-############################################################## Callbacks###############################################################"
+
+
+############################################################## Callbacks##############################################################
+
 @app.callback(  
     Output("line-chart", "figure"),     
     [Input("checklist", "value")])  
@@ -1339,7 +1351,7 @@ def update_bar_chart2(region):
     [Input("dropdown5","value")])   
 def update_bar_chart(pays): 
     mask = df_monde["Country"] == pays  
-    fig = px.line(df_monde[mask], x="Date_reported", y="New_cases", title="Nombre de nouveaux cas au cours du temps dans le pays sélectionnée",  
+    fig = px.line(df_monde[mask], x="Date_reported", y="New_cases", title="Nombre de nouveaux cas au cours du temps dans le pays sélectionné",  
         labels={"Date_reported":"Date","New_cases":"Nombre de nouveaux cas"})    
     return fig  
 
@@ -1349,7 +1361,7 @@ def update_bar_chart(pays):
 
 def update_bar_chart2(pays):    
     mask = df_monde["Country"] == pays  
-    fig = px.line(df_monde[mask], x="Date_reported", y="New_cases", title="Nombre de nouveaux cas au cours du temps dans le pays sélectionnée",  
+    fig = px.line(df_monde[mask], x="Date_reported", y="New_cases", title="Nombre de nouveaux cas au cours du temps dans le pays sélectionné",  
         labels={"Date_reported":"Date","New_cases":"Nombre de nouveaux cas"})    
     return fig  
 
@@ -1358,7 +1370,7 @@ def update_bar_chart2(pays):
     [Input("dropdown7","value")])   
 def update_bar_chart(pays): 
     mask = df_monde["Country"] == pays  
-    fig = px.line(df_monde[mask], x="Date_reported", y="New_deaths", title="Nombre de nouveaux décès au cours du temps dans le pays sélectionnée",   
+    fig = px.line(df_monde[mask], x="Date_reported", y="New_deaths", title="Nombre de nouveaux décès au cours du temps dans le pays sélectionné",   
         labels={"Date_reported":"Date","New_deaths":"Nombre de nouveaux décès"}) 
     return fig  
 
@@ -1368,7 +1380,7 @@ def update_bar_chart(pays):
 
 def update_bar_chart2(pays):    
     mask = df_monde["Country"] == pays  
-    fig = px.line(df_monde[mask], x="Date_reported", y="New_deaths", title="Nombre de nouveaux décès au cours du temps dans le pays sélectionnée",   
+    fig = px.line(df_monde[mask], x="Date_reported", y="New_deaths", title="Nombre de nouveaux décès au cours du temps dans le pays sélectionné",   
         labels={"Date_reported":"Date","New_deaths":"Nombre de nouveaux décès"}) 
     return fig  
 
